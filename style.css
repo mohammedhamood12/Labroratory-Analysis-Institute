@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    direction: rtl;
+}
+
 /* Saleh css */
 .container {
     max-width: 1200px;
@@ -85,15 +93,80 @@
 
 .s-project p {
     color: #666;
-    font-size: 16px;}
-    /* ------------End Of Saleh css---------- */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
-    direction: rtl;
+    font-size: 16px;
 }
+    /* ------------End Of Saleh css---------- */
+
+
+
+/* Mohammed Shawakh css */
+
+.mission-section {
+    padding: 2rem 1rem;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.mission-statement {
+    flex: 1;
+    padding-right: 1.5rem;
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+.mission-statement p {
+    margin-bottom: 1.2rem;
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #333;
+}
+
+.mission-statement .intro-text {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #ff5722;
+    text-align: center;
+}
+
+
+.mission-image .img {
+    border-radius: 10px;
+}
+
+.h2-sec {
+    text-align: center;
+    margin: 5px;
+    color: #005b96;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.goals-list {
+    list-style: none;
+    padding-left: 0;
+    line-height: 1.8;
+}
+
+.goals-list li {
+    margin-bottom: 0.75rem;
+    padding: 0.5rem;
+    background-color: #e1f5fe;
+    border-left: 5px solid #005b96;
+}
+    /* ------------End Of Mohammed Shawakh css---------- */
+
 
 /* Body styling */
 body {
@@ -106,6 +179,10 @@ body {
 header {
     background-color: #005b96;
     padding: 1rem 0;
+    position: fixed;
+    top: 1px;
+    text-align: center;
+    width: 100%;
 }
 
 nav ul {
@@ -127,9 +204,6 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
-
-/* Main Page */
-
 
 /* Footer */
 footer {
