@@ -24,8 +24,8 @@
 }
 .s-title1{
     text-align: center;
-    color: #333;
-    font-size: 22px;
+    color: midnightblue;
+    font-size: 29px;
     margin-bottom: 20px;
 }
 
@@ -44,6 +44,9 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     text-align: center;
+}
+.s-projects p.s-caption{
+    font-size: 20px;
 }
 
 .project:hover {
