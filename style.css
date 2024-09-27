@@ -23,7 +23,7 @@
     margin-bottom: 20px;
 }
 
-.s-title1{
+.s-title1 {
     text-align: center;
     color: midnightblue;
     font-size: 29px;
@@ -46,7 +46,8 @@
     transition: transform 0.3s ease;
     text-align: center;
 }
-.s-projects p.s-caption{
+
+.s-projects p.s-caption {
     font-size: 20px;
 }
 
@@ -94,7 +95,8 @@
     color: #666;
     margin-bottom: 5px;
 }
-.s-project ul li:hover{
+
+.s-project ul li:hover {
     font-size: 22px;
     color: chartreuse;
 }
@@ -103,18 +105,20 @@
     color: #666;
     font-size: 16px;
 }
+
 .s-project p.s-year {
     color: #005b96;
     font-weight: bold;
     font-size: 1.2rem;
     margin-top: 10px;
     text-align: center;
-  }
-  
-  .s-project p.s-year:hover {
+}
+
+.s-project p.s-year:hover {
     color: #ffa500;
-  }
-    /* ------------End Of Saleh css---------- */
+}
+
+/* ------------End Of Saleh css---------- */
 
 
 
@@ -192,7 +196,8 @@
     background-color: #e1f5fe;
     border-left: 5px solid #005b96;
 }
-    /* ------------End Of Mohammed Shawakh css---------- */
+
+/* ------------End Of Mohammed Shawakh css---------- */
 
 
 /* Body styling */
@@ -277,7 +282,7 @@ footer p {
     background-color: #fff;
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .s-student h3 {
@@ -289,4 +294,91 @@ footer p {
 .s-caption {
     font-size: 16px;
     color: #7f8c8d;
+}
+
+
+
+
+/* ---------ahmad---------------- */
+/* body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+} */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* section {
+    background-color: #fff;
+    border-radius: 8px;
+    width: calc(33.333% - 20px);
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+} */
+.n1 {
+    background-color: #fff;
+    border-radius: 8px;
+    width: calc(33.333% - 20px);
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+section img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+} */
+
+.content {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 1.5em;
+}
+
+p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+    section {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 600px) {
+    section {
+        width: 100%;
+    }
+
 }
