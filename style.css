@@ -19,9 +19,10 @@
 .s-h2 {
     text-align: center;
     color: #333;
-    font-size: 28px;
+    font-size: 35px;
     margin-bottom: 20px;
 }
+
 .s-title1{
     text-align: center;
     color: midnightblue;
@@ -93,11 +94,26 @@
     color: #666;
     margin-bottom: 5px;
 }
+.s-project ul li:hover{
+    font-size: 22px;
+    color: chartreuse;
+}
 
 .s-project p {
     color: #666;
     font-size: 16px;
 }
+.s-project p.s-year {
+    color: #005b96;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .s-project p.s-year:hover {
+    color: #ffa500;
+  }
     /* ------------End Of Saleh css---------- */
 
 
