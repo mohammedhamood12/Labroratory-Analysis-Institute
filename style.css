@@ -22,7 +22,8 @@
     font-size: 28px;
     margin-bottom: 20px;
 }
-.s-title1{
+
+.s-title1 {
     text-align: center;
     color: midnightblue;
     font-size: 29px;
@@ -45,7 +46,8 @@
     transition: transform 0.3s ease;
     text-align: center;
 }
-.s-projects p.s-caption{
+
+.s-projects p.s-caption {
     font-size: 20px;
 }
 
@@ -98,7 +100,8 @@
     color: #666;
     font-size: 16px;
 }
-    /* ------------End Of Saleh css---------- */
+
+/* ------------End Of Saleh css---------- */
 
 
 
@@ -106,7 +109,6 @@
 
 .mission-section {
     padding: 2rem 1rem;
-    background-color: #f9f9f9;
 }
 
 .container {
@@ -142,9 +144,19 @@
     text-align: center;
 }
 
+.mission-image {
+    width: 95%;
+    height: 200px;
+    margin: 0 auto 15px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
 .mission-image .img {
-    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .h2-sec {
@@ -166,7 +178,8 @@
     background-color: #e1f5fe;
     border-left: 5px solid #005b96;
 }
-    /* ------------End Of Mohammed Shawakh css---------- */
+
+/* ------------End Of Mohammed Shawakh css---------- */
 
 
 /* Body styling */
