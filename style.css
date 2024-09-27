@@ -244,3 +244,49 @@ footer {
 footer p {
     font-size: 0.9rem;
 }
+
+/*  bilal haj mustaf css */
+
+.container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.s-h2 {
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.s-title1 {
+    font-size: 18px;
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.s-top-students {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.s-student {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.s-student h3 {
+    font-size: 20px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.s-caption {
+    font-size: 16px;
+    color: #7f8c8d;
+}
